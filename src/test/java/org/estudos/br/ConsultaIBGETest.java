@@ -13,7 +13,7 @@ public class ConsultaIBGETest {
     private static final String DISTRITO_API_URL = "https://servicodados.ibge.gov.br/api/v1/localidades/distritos/";
 
     private static final String REGIOES_API_URL = "https://servicodados.ibge.gov.br/api/v1/localidades/regioes/";
-    private static final String ESTADO = "/estado";
+    private static final String ESTADO = "/estados";
 
     @Test
     @DisplayName("Teste para consulta única de um estado")
